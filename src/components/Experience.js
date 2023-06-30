@@ -3,7 +3,7 @@ import EduExpCard from "./EduExpCard";
 
 const Experience = () => {
   return (
-    <div className="text-[#53657d]" id="experience">
+    <div className="text-[#fff]" id="experience">
       <div className="max-w-[800px] w-full mx-auto flex flex-col p-5 mt-10">
         <h2 className="lg:hidden text-xl">EXPERIENCE</h2>
         <EduExpCard

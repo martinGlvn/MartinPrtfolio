@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "press-start": ["Press Start 2P", "cursive"],
+        lekton: ["Lekton", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

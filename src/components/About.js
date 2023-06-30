@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="text-[#53657d]" id="about">
+    <div className="text-[#fff]" id="about">
       <div className="max-w-[800px] w-full mx-auto flex flex-col p-5 mt-10">
         <h2 className="lg:hidden text-xl">ABOUT</h2>
         <p className="mt-5">

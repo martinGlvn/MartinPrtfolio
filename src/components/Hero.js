@@ -1,12 +1,12 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import ProfilePicture from "../assets/profilePicture.jpg";
+import ProfilePicture from "../assets/profile.png";
 import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
     <div>
-      <div className="text-[#1a202c]">
+      <div className="text-[#fff] ">
         {/* PHONE */}
         <div className="max-w-[800px] lg:hidden h-screen w-full justify-center items-center mx-auto flex flex-col p-5 mt-5">
           <img
@@ -55,14 +55,14 @@ const Hero = () => {
             className="w-40 rounded-full mb-5 shaow border border-[#1a202c]"
             style={{ borderWidth: "2px" }}
           />
-          <h1 className="text-4xl font-semibold">Martin Galván</h1>
-          <h2 className="text-l font-light mt-5 text-[#53657d]">
-            Software Developer{" "}
-            <span className="text-[#1a202c]">
+          <h1 className="text-3xl font-semibold press-start">Martin Galván</h1>
+          <h2 className="text-l font-light mt-5 text-[#fff]">
+            Cloud Engineer{" "}
+            <span className="text-[#b71cbc]">
               <a href="https:google.com">@Google</a>
             </span>
           </h2>
-          <p className="mt-5 max-w-[400px] text-[#53657d]">
+          <p className="mt-5 max-w-[400px] text-[#fff]">
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             euismod eleifend mauris, id auctor urna iaculis id.
@@ -72,7 +72,7 @@ const Hero = () => {
 
           <nav>
             <ul className="lg:flex flex-col mt-[60px]">
-              <li className="mb-5 text-[#53657d] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
                 <Link
                   smooth
                   spy
@@ -87,7 +87,7 @@ const Hero = () => {
                   ABOUT
                 </Link>
               </li>
-              <li className="mb-5 text-[#53657d] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
                 <Link
                   smooth
                   spy
@@ -102,7 +102,7 @@ const Hero = () => {
                   EDUCATION
                 </Link>
               </li>
-              <li className="mb-5 text-[#53657d] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
                 <Link
                   smooth
                   spy
@@ -117,7 +117,7 @@ const Hero = () => {
                   EXPERIENCE
                 </Link>
               </li>
-              <li className="mb-5 text-[#53657d] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
                 <Link
                   smooth
                   spy
