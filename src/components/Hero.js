@@ -59,19 +59,40 @@ const Hero = () => {
           <h2 className="text-l font-light mt-5 text-[#fff]">
             Cloud Engineer{" "}
             <span className="text-[#b71cbc]">
-              <a href="https:google.com">@Google</a>
+              <a href="https:google.com">Amazon Web Service Microsoft Azure</a>
             </span>
           </h2>
           <p className="mt-5 max-w-[400px] text-[#fff]">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            euismod eleifend mauris, id auctor urna iaculis id.
+            Self-taught Cloud Engineer with good knowledge and experience in
+            developing cloud architectures
           </p>
+          {/* test */}
+          <div className="flex flex-row mt-5 max-w-[200px] justify-between">
+            <a href="https:github.com">
+              <FaGithub
+                size={26}
+                className=" text-[#fff] hover:text-[#1a202c] hover:cursor-pointer"
+              />
+            </a>
+            <a href="https:linkedin.com">
+              <FaLinkedin
+                size={26}
+                className=" text-[#fff] hover:text-[#1a202c] hover:cursor-pointer"
+              />
+            </a>
+            <a href="https:instagram.com">
+              <FaInstagram
+                size={26}
+                className=" text-[#fff] hover:text-[#1a202c] hover:cursor-pointer"
+              />
+            </a>
+          </div>
 
           {/* NAVIGATION */}
 
           <nav>
-            <ul className="lg:flex flex-col mt-[60px]">
+            <ul className="lg:flex flex-col mt-[30px]">
               <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
                 <Link
                   smooth

@@ -4,7 +4,7 @@ import Skills from "./Skills";
 
 const ProjectsCard = ({ image, title, description, skills }) => {
   return (
-    <div className="grid lg:grid-cols-4 mt-10 p-3 hover:bg-[#94a3b8]/20 rounded-lg hover:cursor-pointer">
+    <div className="grid lg:grid-cols-4 mt-10 p-3 hover:bg-[#94a3b8]/5  rounded-lg hover:cursor-pointer">
       <div className="lg:col-span-4 mb-5">
         <img src={image} className="rounded-lg" />
       </div>
