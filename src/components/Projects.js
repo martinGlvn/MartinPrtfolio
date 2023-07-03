@@ -4,7 +4,7 @@ import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
-    <div className="text-[#fff]" id="projects">
+    <div className="text-[#c8c6c0]" id="projects">
       <div className="max-w-[800px] w-full mx-auto flex- flex-col p-5 mt-10">
         <h2 className="lg:hidden text-xl">PROJECTS</h2>
         <div className="mx-auto items-center justify-center">

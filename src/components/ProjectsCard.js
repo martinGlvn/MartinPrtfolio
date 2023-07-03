@@ -12,7 +12,7 @@ const ProjectsCard = ({ image, title, description, skills }) => {
         <h1 className="flex items-baseline">
           {title} <BsArrowUpRight className="ml-3" />
         </h1>
-        <p className="mt-5 text-[#53657d] text-sm">{description}</p>
+        <p className="mt-5 text-[c8c6c0] text-sm">{description}</p>
         <Skills skills={skills} />
       </div>
     </div>

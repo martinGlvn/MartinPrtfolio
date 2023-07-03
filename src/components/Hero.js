@@ -56,10 +56,10 @@ const Hero = () => {
             style={{ borderWidth: "2px" }}
           />
           <h1 className="text-3xl font-semibold press-start">Martin Galván</h1>
-          <h2 className="text-l font-mono mt-5 text-[#fff]">
-            Cloud Engineer{" "}
-            <span className="text-[#b71cbc]">
-              <a href="https:google.com">Amazon Web Service Microsoft Azure</a>
+          <h2 className="text-l mt-5 text-[#fff]">
+            Cloud Engineer × Security × Architecture{" "}
+            <span className="text-[#fff]">
+              <a href="https:google.com"></a>
             </span>
           </h2>
           <p className="mt-5 max-w-[400px] text-[#c8c6c0]">
@@ -72,19 +72,19 @@ const Hero = () => {
             <a href="https:github.com">
               <FaGithub
                 size={26}
-                className=" text-[#fff] hover:text-[#1a202c] hover:cursor-pointer"
+                className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
             <a href="https:linkedin.com">
               <FaLinkedin
                 size={26}
-                className=" text-[#fff] hover:text-[#1a202c] hover:cursor-pointer"
+                className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
             <a href="https:instagram.com">
               <FaInstagram
                 size={26}
-                className=" text-[#fff] hover:text-[#1a202c] hover:cursor-pointer"
+                className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
           </div>
@@ -93,60 +93,60 @@ const Hero = () => {
 
           <nav>
             <ul className="lg:flex flex-col mt-[30px]">
-              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#c8c6c0]">
                 <Link
                   smooth
                   spy
                   to="about"
                   offset={0}
-                  activeClass={"text-[#1a202c]"}
+                  activeClass={"text-[#c8c6c0]"}
                   activeStyle={{
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid #56008B",
                     paddingBottom: "5px",
                   }}
                 >
                   ABOUT
                 </Link>
               </li>
-              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#c8c6c0]">
                 <Link
                   smooth
                   spy
                   to="education"
                   offset={0}
-                  activeClass={"text-[#1a202c]"}
+                  activeClass={"text-[#c8c6c0]"}
                   activeStyle={{
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid #56008B",
                     paddingBottom: "5px",
                   }}
                 >
                   EDUCATION
                 </Link>
               </li>
-              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#c8c6c0]">
                 <Link
                   smooth
                   spy
                   to="experience"
                   offset={0}
-                  activeClass={"text-[#1a202c]"}
+                  activeClass={"text-[#c8c6c0]"}
                   activeStyle={{
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid #56008B",
                     paddingBottom: "5px",
                   }}
                 >
                   EXPERIENCE
                 </Link>
               </li>
-              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#1a202c]">
+              <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#c8c6c0]">
                 <Link
                   smooth
                   spy
                   to="projects"
                   offset={0}
-                  activeClass={"text-[#1a202c]"}
+                  activeClass={"text-[#c8c6c0]"}
                   activeStyle={{
-                    borderBottom: "2px solid black",
+                    borderBottom: "2px solid #56008B",
                     paddingBottom: "5px",
                   }}
                 >
