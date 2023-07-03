@@ -56,13 +56,13 @@ const Hero = () => {
             style={{ borderWidth: "2px" }}
           />
           <h1 className="text-3xl font-semibold press-start">Martin Galván</h1>
-          <h2 className="text-l font-light mt-5 text-[#fff]">
+          <h2 className="text-l font-mono mt-5 text-[#fff]">
             Cloud Engineer{" "}
             <span className="text-[#b71cbc]">
               <a href="https:google.com">Amazon Web Service Microsoft Azure</a>
             </span>
           </h2>
-          <p className="mt-5 max-w-[400px] text-[#fff]">
+          <p className="mt-5 max-w-[400px] text-[#c8c6c0]">
             {" "}
             Self-taught Cloud Engineer with good knowledge and experience in
             developing cloud architectures
