@@ -69,19 +69,22 @@ const Hero = () => {
           </p>
           {/* test */}
           <div className="flex flex-row mt-5 max-w-[200px] justify-between">
-            <a href="https:github.com">
+            <a target="blank" href="https://github.com/martinGlvn">
               <FaGithub
                 size={26}
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
-            <a href="https:linkedin.com">
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/martingalv%C3%A1n/"
+            >
               <FaLinkedin
                 size={26}
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
-            <a href="https:instagram.com">
+            <a target="blank" href="https:instagram.com">
               <FaInstagram
                 size={26}
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
