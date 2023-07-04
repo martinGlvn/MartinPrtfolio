@@ -12,7 +12,7 @@ const About = () => {
             2 years of expericence🔥.
           </span>
           &nbsp;Worked on various projects contributing to the development of
-          innovative architectures and delivering impactful
+          innovative architectures and delivering impactful&nbsp;
           <span className="pl-1 pr-1 border-r-1 rounded-sm bg-[#c9d2e0]/10">
             software and architectural solutions🐳
           </span>
