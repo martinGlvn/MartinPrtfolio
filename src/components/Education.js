@@ -7,21 +7,17 @@ const Education = () => {
       <div className="max-w-[800px] w-full mx-auto flex flex-col p-5 mt-10">
         <h2 className="lg:hidden text-xl">EDUCATION</h2>
         <EduExpCard
-          date="2012-2016"
-          title="MSc Computer Science • University Name"
+          date="2023"
+          title="AWS re/Start of Amazon Web Services"
           description="Grade: First Class Honours"
-          skills={
-            "Subject 1, Subject 2, Subject 3, Subject 4, Subject 5, Subject 6"
-          }
+          skills={"Lambda, RDS ,CloudWatch, ECS, Redshift"}
           link={"https://google.com"}
         />
         <EduExpCard
-          date="2012-2016"
-          title="BSc Computer Science • University Name"
+          date="2023"
+          title="Google Cybersecurity Professional Certificate"
           description="Grade: First Class Honours"
-          skills={
-            "Subject 1, Subject 2, Subject 3, Subject 4, Subject 5, Subject 6, Subject 7, Subject 8, Subject 9"
-          }
+          skills={"Linux, SQL, Python, Networks, Detection Systems"}
           link={"https://google.com"}
         />
       </div>
