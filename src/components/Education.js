@@ -4,8 +4,8 @@ import EduExpCard from "./EduExpCard";
 const Education = () => {
   return (
     <div className="text-[#fff]" id="education">
-      <div className="max-w-[800px] w-full mx-auto flex flex-col p-5 mt-10">
-        <h2 className="lg:hidden text-xl">EDUCATION</h2>
+      <div className="max-w-[800px] w-full mx-auto flex flex-col p-5 mt-10 ">
+        <h2 className="lg:hidden text-xl ">EDUCATION</h2>
         <EduExpCard
           date="04 - 2023"
           title="AWS re/Start of Amazon Web Services"

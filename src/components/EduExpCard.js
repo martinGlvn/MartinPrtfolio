@@ -10,7 +10,7 @@ const EduExpCard = ({ link, date, title, description, skills }) => {
           <h3>{date}</h3>
         </div>
         <div className="lg:col-span-3">
-          <h1 className="flex items-baseline">
+          <h1 className="flex items-baseline  ">
             {title} <BsArrowUpRight className="ml-3" />
           </h1>
           <p className="mt-5 text-[#c8c6c0] text-sm">{description}</p>

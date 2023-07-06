@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import ProfilePicture from "../assets/profile.png";
 import { Link } from "react-scroll";
 
@@ -62,7 +62,7 @@ const Hero = () => {
               <a href="https:google.com"></a>
             </span>
           </h2>
-          <p className="mt-5 max-w-[400px] text-[#c8c6c0]">
+          <p className="mt-5 max-w-[400px] text-[#c8c6c0] font-normal">
             {" "}
             Self-taught Cloud Engineer with good knowledge and experience in
             developing cloud architectures
@@ -85,15 +85,14 @@ const Hero = () => {
               />
             </a>
             <a target="blank" href="https:instagram.com">
-              <FaInstagram
-                size={26}
+              <FaFileAlt
+                size={24}
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
           </div>
 
           {/* NAVIGATION */}
-
           <nav>
             <ul className="lg:flex flex-col mt-[30px]">
               <li className="mb-5 text-[#f0f1f3] hover:cursor-pointer hover:text-[#c8c6c0]">
@@ -159,6 +158,7 @@ const Hero = () => {
             </ul>
           </nav>
 
+          {/*  */}
           <div className="flex flex-row mt-10">
             <a href="https:github.com">
               <FaGithub
