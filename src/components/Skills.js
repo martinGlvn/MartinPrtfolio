@@ -7,7 +7,7 @@ const Skills = ({ skills }) => {
         skills.split(",").map((skills, index) => (
           <p
             key={index}
-            className="mt-2 text-xs px-2 py-2 mr-2 text-[#8a4dc9;] bg-[#8a4dc9]/20 rounded-lg"
+            className="mt-2 text-xs px-2 py-2 mr-2 text-[#fff]/50 bg-[#8a4dc9]/20 rounded-lg"
           >
             {skills.trim()}
           </p>
