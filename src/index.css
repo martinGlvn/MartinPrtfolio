@@ -11,3 +11,15 @@
 .lekton {
   font-family: "Lekton", sans-serif;
 }
+/* scrollbar.css */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #181818; /* Cambia #f1f1f1 al color deseado */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8a4dc9; /* Cambia #888 al color deseado */
+}

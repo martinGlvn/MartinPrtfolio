@@ -11,14 +11,14 @@ const Projects = () => {
         <div className="mx-auto items-center justify-center">
           <ProjectsCard
             image={img1}
-            title="PROJECT 2"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod eleifend mauris, id auctor urna iaculis id. Sed venenatis bibendum nunc id condimentum. Maecenas vulputate enim a sollicitudin rutrum. Nullam efficitur viverra nisi ac tincidunt."
+            title="Easy Billing Application"
+            description="A fullstack billing application that offers a comprehensive solution, covering user registration, authentication, report generation, and the implementation of an attractive frontend. We simplify the billing process by providing a secure and efficient system that meets all user needs"
             skills="TypeScript, NodeJS, MongoDB, NextJS, Chakra UI"
           />
           <ProjectsCard
             image={img2}
-            title="PROJECT 1"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod eleifend mauris, id auctor urna iaculis id. Sed venenatis bibendum nunc id condimentum. Maecenas vulputate enim a sollicitudin rutrum. Nullam efficitur viverra nisi ac tincidunt."
+            title="VideoConvert"
+            description="A video to MP3 conversion application built with a microservices architecture, utilizing technologies such as Python, Docker, API Gateway, MySQL, and MongoDB. Our fullstack solution ensures smooth video conversion to MP3, with scalability and reliability provided by microservices. We simplify the conversion process, offering users a secure and efficient system that meets all their needs."
             skills="Python, Docker, Kubernets, Api Gateway, MongoDB, RabbitMQ"
           />
 
