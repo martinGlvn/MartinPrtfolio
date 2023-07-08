@@ -9,13 +9,13 @@ const Education = () => {
         <EduExpCard
           date="04 - 2023"
           title="AWS re/Start of Amazon Web Services"
-          description="Grade: First Class Honours"
+          description="Implementation of cloud infrastructures"
           skills={"Lambda, RDS ,CloudWatch, ECS, Redshift"}
         />
         <EduExpCard
           date="04 - 2023"
           title="Google Cybersecurity Professional Certificate"
-          description="Grade: First Class Honours"
+          description="Identification and mitigation of risks, threats and vulnerabilities in systems"
           skills={"Linux, SQL, Python, Networks, Detection Systems"}
         />
       </div>
