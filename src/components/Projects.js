@@ -22,7 +22,7 @@ const Projects = () => {
             skills="Python, Docker, Kubernets, Api Gateway, MongoDB, RabbitMQ"
           />
 
-          <button className="mt-10 w-[120px] px-2 py-2 text-[#94a3b8] hover:text-[#4DC9CA] hover:bg-[#4DC9CA]/20 border border-[#94a3b8] hover:border-[#4DC9CA] rounded-lg">
+          {/* <button className="mt-10 w-[120px] px-2 py-2 text-[#94a3b8] hover:text-[#4DC9CA] hover:bg-[#4DC9CA]/20 border border-[#94a3b8] hover:border-[#4DC9CA] rounded-lg">
             <a
               href="https://google.com/"
               target="_blank"
@@ -30,7 +30,7 @@ const Projects = () => {
             >
               View More
             </a>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
