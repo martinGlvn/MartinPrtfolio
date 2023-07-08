@@ -87,7 +87,11 @@ const Hero = () => {
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
-            <a target="blank" href="https:instagram.com">
+            <a
+              target="blank"
+              href="/src/assets/MartinGalván_CloudEngineer.pdf"
+              download="MartinGalván_CloudEngineer.pdf"
+            >
               <FaFileAlt
                 size={24}
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
