@@ -59,7 +59,13 @@ const Hero = () => {
             style={{ borderWidth: "0px" }}
           />
           <h1 className="text-3xl font-semibold press-start">Martin Galván</h1>
-          <h2 className="text-l mt-5 text-[#fff]">
+          <h2 className="text-l mt-5 text-[#fff] inline-flex gap-2 items-center">
+            {/*Animation Circle  */}
+            <span className="relative flex h-2 w-2 mb-[3px]">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8a4dc9] opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-[#8a4dc9]" />
+            </span>
+            {/*Title Me  */}
             Cloud Engineer × Security × Architecture{" "}
             <span className="text-[#fff]">
               <a href="https:google.com"></a>

@@ -5,7 +5,7 @@ import Skills from "./Skills";
 const EduExpCard = ({ link, date, title, description, skills }) => {
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
-      <div className="grid lg:grid-cols-4 items-baseline mt-10 p-3 hover:bg-[#94a3b8]/5 rounded-lg">
+      <div className=" border border-[#30363d] grid lg:grid-cols-4 items-baseline mt-10 p-3 hover:bg-[#94a3b8]/5 rounded-lg">
         <div className="lg:col-span-1">
           <h3>{date}</h3>
         </div>

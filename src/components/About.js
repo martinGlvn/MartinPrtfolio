@@ -5,7 +5,7 @@ const About = () => {
     <div className="text-[#c8c6c0]" id="about">
       <div className="max-w-[800px] w-full mx-auto flex flex-col p-5 mt-10">
         <h2 className="lg:hidden text-xl">ABOUT</h2>
-        <p className="mt-5 font-normal">
+        <p className="mt-5 font-normal text-center lg:text-left">
           Welcome to my portfolio!! Passionate backend software developer and
           cloud engineer with&nbsp;
           <span className="pl-1 pr-1 border-r-1 rounded-sm bg-[#c9d2e0]/10">
