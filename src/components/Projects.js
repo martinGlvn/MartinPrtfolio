@@ -15,9 +15,9 @@ const Projects = () => {
           >
             <ProjectsCard
               image={img1}
-              title="Easy Billing Application"
+              title="Serverless Application"
               description="A fullstack billing application that offers a comprehensive solution, covering user registration, authentication, report generation, and the implementation of an attractive frontend. We simplify the billing process by providing a secure and efficient system that meets all user needs"
-              skills="TypeScript, NodeJS, MongoDB, NextJS, Chakra UI"
+              skills="Serverless, NodeJS, DynamoDB, Lambda, Api Gateway, Cognito"
             />
           </a>
           <a
