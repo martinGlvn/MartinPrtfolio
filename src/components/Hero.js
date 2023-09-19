@@ -48,7 +48,7 @@ const Hero = () => {
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
-            <a target="blank" href="/src/assets/MartinGalván_CloudEngineer.pdf">
+            <a target="blank" href="">
               <FaFileAlt
                 size={24}
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
@@ -102,11 +102,7 @@ const Hero = () => {
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
               />
             </a>
-            <a
-              target="blank"
-              href="/src/assets/MartinGalván_CloudEngineer.pdf"
-              download="MartinGalván_CloudEngineer.pdf"
-            >
+            <a target="blank">
               <FaFileAlt
                 size={24}
                 className=" text-[#fff] hover:text-[#c8c6c0] hover:cursor-pointer"
