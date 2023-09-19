@@ -56,8 +56,11 @@ const Hero = () => {
           <img
             src={ProfilePicture}
             className="w-40 rounded-full mb-5 border shadow-[1px_1px_5px_1px_#8a4dc9]"
-            style={{ borderWidth: "0px" }}
+            style={{
+              borderWidth: "0px",
+            }}
           />
+
           <h1 className="text-3xl font-semibold press-start">Martin Galván</h1>
           <h2 className="text-l mt-5 text-[#fff] inline-flex gap-2 items-center">
             {/*Animation Circle  */}

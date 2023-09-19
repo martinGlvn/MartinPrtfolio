@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../assets/2.png";
-import img2 from "../assets/Frame1.png";
+import img1 from "../assets/p1.png";
+import img2 from "../assets/p2.png";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -9,13 +9,10 @@ const Projects = () => {
       <div className="max-w-[800px] w-full mx-auto flex- flex-col p-5 mt-10">
         <h2 className="lg:hidden text-xl">PROJECTS</h2>
         <div className="mx-auto items-center justify-center">
-          <a
-            href="https://github.com/martinGlvn/ProjectProductSales"
-            target="blank"
-          >
+          <a href="https://github.com/martinGlvn/ServerlessAWS" target="blank">
             <ProjectsCard
               image={img1}
-              title="Serverless Application"
+              title="ServerlessTaskApp"
               description="A fullstack billing application that offers a comprehensive solution, covering user registration, authentication, report generation, and the implementation of an attractive frontend. We simplify the billing process by providing a secure and efficient system that meets all user needs"
               skills="Serverless, NodeJS, DynamoDB, Lambda, Api Gateway, Cognito"
             />
