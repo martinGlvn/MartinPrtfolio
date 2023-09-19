@@ -13,7 +13,7 @@ const Projects = () => {
             <ProjectsCard
               image={img1}
               title="ServerlessTaskApp"
-              description="A fullstack billing application that offers a comprehensive solution, covering user registration, authentication, report generation, and the implementation of an attractive frontend. We simplify the billing process by providing a secure and efficient system that meets all user needs"
+              description="Fully Serverless task management application hosted on AWS, you can efficiently create, organize, and track your tasks. This application uses Amazon Cognito security to ensure that only authorized users have access to their tasks. Additionally, we leverage the scalability and high availability of AWS Lambda and DynamoDB for storage and architecture."
               skills="Serverless, NodeJS, DynamoDB, Lambda, Api Gateway, Cognito"
             />
           </a>
