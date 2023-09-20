@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <div>
-      <div className="text-[#fff] ">
+      <div className="text-[#893535] ">
         {/* PHONE */}
         <div className="max-w-[800px] lg:hidden h-screen w-full justify-center items-center mx-auto flex flex-col p-5 mt-5">
           <img
