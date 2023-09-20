@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "jsx-a11y/alt-text": ["error", { "elements": ["img"] }],
+    "jsx-a11y/anchor-has-content": ["error", { "components": ["Link"] }]
+    // Agrega otras reglas personalizadas aquí
+  }
+}
