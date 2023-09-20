@@ -30,7 +30,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
       - name: Download artifact
-        uses: actions/download-artifact@main
+        uses: actions/download-artifact@v2
+        #
         with:
           name: dist
           path: dist
